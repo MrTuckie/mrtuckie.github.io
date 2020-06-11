@@ -1,29 +1,76 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="favicon.ico" />
 <style>
-	h2 {
-		color: darkblue;
+	.red-text {
+		color: red;
+	}
+	.big-text {
+		font-size: 30px;
+	}
+	.thick-green-border{
+		border-color: green;
+		border-width: 10px;
+		border-style: solid;
+		border-radius: 50%;
+	}
+	p {
+		font-size: 16px;
+		color: white;
 		font-family: monospace;
+		background-color: gray;
 	}
-	.small-image{
-		width: 100px;
+	
+	h2 {
+		color: blue;
 	}
+	
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin: 10px 20px 30px 40px;
+  }
+
+
 </style>
 
-<h1>Arthur Lorencini Bergamaschi</h1> 
+<h1>Arthur Lorencini Bergamaschi</h1>
+<h5 class="injected-text">margin</h5>
 
-<p>Data de nascimento: 15/03/1997 - 23 anos; Solteiro.</p>
-<p>Telefone/WhatsApp: <a href="https://wa.me/5527995072983">+5527995072983</a>; Telegram: <a href="https://t.me/mrtuckie">@mrtuckie</a>;
-email: <a href="mailto:arthur.lorencini@gmail.com">arthur.lorencini@gmail.com</a>;<br>
-Endereço: Praça Wolghano Netto, 208. Jardim da Penha - Vitória - ES - Brasil.</p>
-<p>Atualmente, estagiário na área de Customer Care da <a href="https://dersalis.com">Dersalis Healthy Solutions</a>.</p>
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
 
+<p>Atualmente, estagiário na área de Customer Care da Dersalis Healty Solutions <link rel="stylesheet" href="https://dersalis.com">.</p>
+<a href="#"><img class="smaller-image thick-green-border" src="photo_2020-05-07_06-18-05.jpg" alt="A cute orange cat."></a>
 <h2>Currículo:</h2>
 <ul>
     <li>Estudante de Engenharia Elétrica na <a href="http://www.ufes.br/">UFES</a>;</li>
-    <li>Lecionou <a href="https://github.com/MrTuckie/Minicurso_RSP_Py">aulas</a> de Python 3 para Raspberry Pi durante a <a href="http://www.jacee.ufes.br/">JACEE</a> de 2018;</li>  
+    <li>Lecionou aulas de Python 3 para Raspberry Pi durante a <a href="http://www.jacee.ufes.br/">JACEE</a> de 2018;</li> 
     <li>Possui canal no <a href="https://www.youtube.com/user/MrTuckieTuckie">YouTube</a> sobre Eletrônica;</li>
-    <li>Lecionou aulas de Eletrônica Básica 2 no YouTube para ajudar os colegas de classe;</li>
+    <li class="red-text big-text ">Lecionou aulas de Eletrônica Básica 2 no YouTube para ajudar os colegas de classe;</li>
     <li>Participou de um ano de Iniciação Científica no projeto
         "Armadilha Fotográfica para observação remota de Harpias" pelo CPID e Labtel;</li>
     <li>Reparo em módulos de aprendizado como um pequeno Elevador de Metal do Laboratório de Microeletrônica;</li>
@@ -55,23 +102,22 @@ Endereço: Praça Wolghano Netto, 208. Jardim da Penha - Vitória - ES - Brasil.
 
 <h2>Certificados:</h2>
 <p>Em progresso...</p>
-<a href="#"><img class="" src="" alt=""></a>
 <h2>Soft Skills:</h2>
 <p>Em progresso...</p>
-<ul>
-	<li>Não desprende esforço para tirar dúvidas sobre tecnologia;</li>
-</ul>
-
 
 <p>Encontre-me nas redes sociais: 
     <a href="https://twitter.com/mrtuckie">Twitter</a>
     <a href="https://www.linkedin.com/in/arthur-lorencini-bergamaschi-a1b212135/">LinkedIn</a>
     <a href="https://github.com/mrtuckie">GitHub</a>
-    <a href="https://www.youtube.com/user/MrTuckieTuckie">YouTube</a>
     <a href="https://www.freecodecamp.org/mrtuckie">FreeCodeCamp</a>
+    <a href="https://www.youtube.com/user/MrTuckieTuckie">YouTube</a>
     <a href="https://www.instructables.com/member/mrtuckie/">Instructables</a>
 </p>
 <p><b>"Humans are tool builders, and we build tools that can dramatically amplify our innate human abilities"</b> - Steve Jobs.</p>
-<p><b>"Os humanos criam ferramentas, e nós fazemos isso para aumentar drasticamente as nossas habilidades como ser humano"</b> - Steve Jobs.</p>
-<p><a href="https://github.com/MrTuckie/mrtuckie.github.io">Link para o repositório deste currículo.</a></p>
-<a href="#"><img class="small-image" src="mrtuckie.jpg" alt=""></a>
+
+<!--TODO: Adicionar as fotos dos certificados e dos projetos;
+    TODO: Linkar os repositórios do rpi, elevador de metal e outros no currículo;
+    TODO: Procurar exemplos de currículos bacanas para se inspirar;
+    TODO: Upar os vídeos do embryo electronics no mrtuckie;
+    TODO: Colocar o vídeo da aula da jacee no canal mrtuckie.
+-->
