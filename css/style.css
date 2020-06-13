@@ -1,7 +1,34 @@
+:root{
+
+}
+
 h2 {
 	color: darkblue;
-	font-family: monospace;
+	font-family: monospace !important;
 }
 .small-image{
-	width: 100px;
+	width: 200px;
 }
+.center-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.robot-face{
+	
+}
+
+.robot-eyes{
+
+}
+
+.robot-ears{
+
+}
+
+.robot-hair{
+
+}
+
+
