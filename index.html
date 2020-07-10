@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-
-
-	<!-- <script>document.footer.innerHTML = "<p>Hoje é dia: " + date + "</p>"</script> -->
 	<head>
 		<title>Arthur Lorencini Bergamaschi</title>
-		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="shortcut icon" href="favicon.ico"/>
 		<link rel="stylesheet" href="css/style.css">
 		<script src = "js/script.js"></script>
 	</head>
@@ -55,7 +52,6 @@
 		<h2>Certificados:</h2>
 		<p><a href="certificates/jacee.jpeg"><img class="small-image" src="certificates/jacee.jpeg" alt="certificado da jacee 2018"></a></p>
 
-
 		<p>Encontre-me nas redes sociais: 
 			<a target="_blank" href="https://twitter.com/mrtuckie">Twitter</a>
 			<a href="https://www.linkedin.com/in/arthur-lorencini-bergamaschi-a1b212135/">LinkedIn</a>
@@ -70,6 +66,17 @@
 		<form action="pinguim.html">
 			<button type="submit">Botão mágico.</button>
 		</form>
+		<br><br>
+		<form action="https://api.particle.io/v1/devices/25003c000c47373336323230/controlLights?access_token=459bd23d982d01e00d1f1db2df5e5c1cdb9075ff" method="POST">
+			Controle a lâmpada do meu quarto!
+			<br>
+			<input type="radio" name="arg" value="off">Ligar a lâmpada do meu quarto.
+			<br>
+			<input type="radio" name="arg" value="on">Desligar a lâmpada do meu quarto.
+			<br>
+			<br>
+			<input type="submit" value="Enviar comando.">
+  		</form>
 		<br>
 		<a href="#nome"><img class="small-image center-image" src="mrtuckie.jpg" alt=""></a>
 	</body>
